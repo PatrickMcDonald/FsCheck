@@ -1,9 +1,9 @@
 language: csharp
 
-sudo : false
+sudo: false
 
 script:
-  - ./build.sh CI
+  - ./build.sh RunTests
 
 cache:
   directories:
